@@ -289,6 +289,25 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="coderay (vbundled(1.1.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/coderay-1.1.3/bin" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/coderay-1.1.3/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/coderay-1.1.3/bin" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/coderay-1.1.3/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/coderay-1.1.3/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="concurrent-ruby (vbundled(1.2.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -884,6 +903,25 @@
           <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/pg-1.4.5/sample" />
           <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/pg-1.4.5/.github" />
           <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/pg-1.4.5/rakelib" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pry (vbundled(0.14.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/pry-0.14.2/bin" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/pry-0.14.2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/pry-0.14.2/bin" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/pry-0.14.2/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/pry-0.14.2/bin" />
         </excluded>
       </library>
     </orderEntry>

@@ -19,6 +19,8 @@ gem 'stimulus-rails'
 
 gem 'jbuilder'
 
+gem 'pry', '~> 0.14.2'
+
 group :development, :test do
   gem 'rspec-rails'
 end
@@ -41,3 +43,8 @@ group :development do
   gem 'web-console'
 end
 
+group :test do
+  # Adds support for Capybara system testing and selenium driver
+  gem 'shoulda-matchers'
+  # Easy installation and use of web drivers to run system tests with browsers
+end

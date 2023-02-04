@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_02_03_092309) do
+ActiveRecord::Schema[7.0].define(version: 2023_02_02_150120) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -25,10 +25,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_03_092309) do
     t.integer "number"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "team_id", null: false
+    t.integer "run", default: 0
     t.integer "goals", default: 0
     t.integer "pass_percentage", default: 0
-    t.integer "run", default: 0
+    t.bigint "team_id", null: false
     t.index ["team_id"], name: "index_players_on_team_id"
   end
 
@@ -36,10 +36,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_03_092309) do
     t.string "name", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "match_id", null: false
-    t.index ["match_id"], name: "index_teams_on_match_id"
+    t.bigint "matches_id", null: false
+    t.index ["matches_id"], name: "index_teams_on_matches_id"
   end
 
   add_foreign_key "players", "teams"
-  add_foreign_key "teams", "matches"
+  add_foreign_key "teams", "matches", column: "matches_id"
 end
