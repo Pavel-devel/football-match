@@ -25,11 +25,10 @@ RSpec.describe Player, type: :model do
   end
 
   it "returns true if player has the achievement running" do
-    expect(pele.has_achievement_running(10)).to eq(10)
+    expect(pele.has_achievement_running(10)).to be_truthy
   end
 
   it "returns false if player doesn't have the achievement running" do
     expect(pele.has_achievement_running(5)).to eq(5)
   end
-
-  end
+end

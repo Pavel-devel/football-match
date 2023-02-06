@@ -1,7 +1,7 @@
 class Match < ApplicationRecord
   has_many :teams
-
-  def players_with_achievement(achievement)
-    run.select { |a| a[:achievement] == achievement }.map { |a| a[:player] }
+  has_many :achievements
+  def top_5_players(achievement)
+    achievements.find_by(id: achievement.id).assigned_players
   end
 end

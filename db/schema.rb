@@ -10,14 +10,32 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_02_02_150120) do
+ActiveRecord::Schema[7.0].define(version: 2023_02_06_160652) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "achievements", force: :cascade do |t|
+    t.string "name", null: false
+    t.json "conditions"
+    t.integer "ran_kilometers", default: 0
+    t.integer "goals", default: 0
+    t.integer "pass_percentage", default: 0
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.bigint "players_id"
+    t.bigint "matches_id"
+    t.index ["matches_id"], name: "index_achievements_on_matches_id"
+    t.index ["players_id"], name: "index_achievements_on_players_id"
+  end
 
   create_table "matches", force: :cascade do |t|
     t.string "place"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "achievements_id"
+    t.bigint "teams_id", null: false
+    t.index ["achievements_id"], name: "index_matches_on_achievements_id"
+    t.index ["teams_id"], name: "index_matches_on_teams_id"
   end
 
   create_table "players", force: :cascade do |t|
@@ -25,10 +43,9 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_02_150120) do
     t.integer "number"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "run", default: 0
-    t.integer "goals", default: 0
-    t.integer "pass_percentage", default: 0
     t.bigint "team_id", null: false
+    t.bigint "achievements_id"
+    t.index ["achievements_id"], name: "index_players_on_achievements_id"
     t.index ["team_id"], name: "index_players_on_team_id"
   end
 
@@ -36,10 +53,12 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_02_150120) do
     t.string "name", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "matches_id", null: false
-    t.index ["matches_id"], name: "index_teams_on_matches_id"
   end
 
+  add_foreign_key "achievements", "matches", column: "matches_id"
+  add_foreign_key "achievements", "players", column: "players_id"
+  add_foreign_key "matches", "achievements", column: "achievements_id"
+  add_foreign_key "matches", "teams", column: "teams_id"
+  add_foreign_key "players", "achievements", column: "achievements_id"
   add_foreign_key "players", "teams"
-  add_foreign_key "teams", "matches", column: "matches_id"
 end

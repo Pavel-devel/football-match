@@ -1,9 +1,12 @@
 class Player < ApplicationRecord
   belongs_to :team
+  has_many :achievements
 
   validates :name, :number, presence: true
 
-  def has_achievement_running(achievements)
-    players.include?(achievements)
+  def assinged_conditions?(achievent)
+  end
+  def to_s
+    "#{name}: #{team.name}"
   end
 end
