@@ -22,7 +22,8 @@ gem 'jbuilder'
 gem 'pry', '~> 0.14.2'
 
 group :development, :test do
-  gem 'rspec-rails'
+  gem 'rspec', '~> 3.9.0'
+  gem 'rspec-rails', '~> 3.9.1'
 end
 
 group :development do

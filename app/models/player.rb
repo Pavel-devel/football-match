@@ -1,6 +1,6 @@
 class Player < ApplicationRecord
   belongs_to :team
-  has_many :achievements
+  has_many :events
 
   validates :name, :number, presence: true
 

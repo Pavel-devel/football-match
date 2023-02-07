@@ -1,36 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="test_app_development@localhost" uuid="1e333ee5-cd8e-4130-855e-07e31a9e813b">
+    <data-source source="LOCAL" name="football_development@localhost" uuid="870e67a7-781a-4e6b-8829-3666537c60aa">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/test_app_development</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/football_development</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="test_app_test@localhost" uuid="78396005-3f4f-4010-b6c5-cb16d119f32d">
+    <data-source source="LOCAL" name="football_test@localhost" uuid="c10ffdb3-21c2-499e-a9ac-7ae024b74a89">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/test_app_test</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="test_app: development" uuid="ca69a0b2-ea05-468b-af11-7d002627b1aa">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/test_app_development</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="test_app: test" uuid="43c3835f-4749-4002-8e38-6cd555941f92">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/test_app_test</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/football_test</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

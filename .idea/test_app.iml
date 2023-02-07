@@ -1168,77 +1168,91 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rspec-core (vbundled(3.12.0)) [path][gem]" type="rubylib">
+      <library name="rspec (vbundled(3.9.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-core-3.12.0/exe" />
-          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-core-3.12.0/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-3.9.0/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-core-3.12.0/exe" />
-          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-core-3.12.0/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-3.9.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec-core (vbundled(3.9.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-core-3.9.3/exe" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-core-3.9.3/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-core-3.9.3/exe" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-core-3.9.3/lib" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-core-3.12.0/exe" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-core-3.9.3/exe" />
         </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rspec-expectations (vbundled(3.12.2)) [path][gem]" type="rubylib">
+      <library name="rspec-expectations (vbundled(3.9.4)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-expectations-3.12.2/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-expectations-3.9.4/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-expectations-3.12.2/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-expectations-3.9.4/lib" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rspec-mocks (vbundled(3.12.3)) [path][gem]" type="rubylib">
+      <library name="rspec-mocks (vbundled(3.9.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-mocks-3.12.3/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-mocks-3.9.1/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-mocks-3.12.3/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-mocks-3.9.1/lib" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rspec-rails (vbundled(6.0.1)) [path][gem]" type="rubylib">
+      <library name="rspec-rails (vbundled(3.9.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-rails-6.0.1/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-rails-3.9.1/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-rails-6.0.1/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-rails-3.9.1/lib" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rspec-support (vbundled(3.12.0)) [path][gem]" type="rubylib">
+      <library name="rspec-support (vbundled(3.9.4)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-support-3.12.0/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-support-3.9.4/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-support-3.12.0/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/rspec-support-3.9.4/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1340,6 +1354,25 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/ruby-progressbar-1.11.0/lib" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="shoulda-matchers (vbundled(5.3.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/shoulda-matchers-5.3.0/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/shoulda-matchers-5.3.0/docs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/shoulda-matchers-5.3.0/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/shoulda-matchers-5.3.0/docs" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/3.0.0/gems/shoulda-matchers-5.3.0/docs" />
+        </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -1561,17 +1594,16 @@
         <option value="migration" />
         <option value="model" />
         <option value="resource" />
-        <option value="rspec:channel" />
         <option value="rspec:controller" />
         <option value="rspec:feature" />
-        <option value="rspec:generator" />
+        <option value="rspec:generators" />
         <option value="rspec:helper" />
         <option value="rspec:install" />
         <option value="rspec:integration" />
         <option value="rspec:job" />
-        <option value="rspec:mailbox" />
         <option value="rspec:mailer" />
         <option value="rspec:model" />
+        <option value="rspec:observer" />
         <option value="rspec:request" />
         <option value="rspec:scaffold" />
         <option value="rspec:system" />
@@ -1614,17 +1646,16 @@
         <option value="migration" />
         <option value="model" />
         <option value="resource" />
-        <option value="rspec:channel" />
         <option value="rspec:controller" />
         <option value="rspec:feature" />
-        <option value="rspec:generator" />
+        <option value="rspec:generators" />
         <option value="rspec:helper" />
         <option value="rspec:install" />
         <option value="rspec:integration" />
         <option value="rspec:job" />
-        <option value="rspec:mailbox" />
         <option value="rspec:mailer" />
         <option value="rspec:model" />
+        <option value="rspec:observer" />
         <option value="rspec:request" />
         <option value="rspec:scaffold" />
         <option value="rspec:system" />
